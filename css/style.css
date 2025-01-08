@@ -5,11 +5,15 @@
 }
 
 form {
-  display: inline-block;
-  text-align: left;
+  display: block;
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
+  text-align: left;
+}
+
+form .form-group {
+  margin-bottom: 20px;
 }
 
 form label {
@@ -22,7 +26,6 @@ form label {
 form input, form textarea {
   width: 100%;
   padding: 10px;
-  margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 14px;
